@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+body{
+    background-image: url(../images/pinguinos.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Tilt Neon';
+    margin: 100px;
+    /* margin-left: 400px; */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid blanchedalmond;
+    background-color: blanchedalmond;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+table{
+    background-color: #fff;
+    padding: 30px;
+}
+
+h1{
+    margin-bottom: 80px;
+    margin-left: 400px;
+}
+form{
+    margin-left: 400px;
+
+}
+.btn{
+    border: 1px solid rgb(155, 127, 247);
+    background-color: rgb(109, 109, 209);
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+
+#cliente_email{
+    margin-left: 38px;
+}
+
+#cliente_nombre{
+    margin-left: 20px;
+}
+
+#cliente_preferencia{
+    margin-left: 40px;
+}
+
+input {
+    margin-bottom: 20px;
+    border-radius: 30px;
+    margin-left: 10px;
+
+}
+
+select{
+    border-radius: 30px;
+}
+label{
+    margin-left:10px;
+}
