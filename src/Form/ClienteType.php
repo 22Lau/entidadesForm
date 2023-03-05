@@ -6,6 +6,8 @@ use App\Entity\Cliente;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
+use Symfony\Component\Form\Extension\Core\Type\PasswordType;
+
 
 class ClienteType extends AbstractType
 {
@@ -15,15 +17,18 @@ class ClienteType extends AbstractType
             ->add('nombre')
             ->add('apellidos')
             ->add('email')
-            ->add('password')
+            ->add('password', PasswordType::class, ['label' => 'password'])
             ->add('preferencia')
         ;
     }
-
+    
     public function configureOptions(OptionsResolver $resolver): void
     {
         $resolver->setDefaults([
             'data_class' => Cliente::class,
         ]);
     }
+
+
+
 }
