@@ -16,10 +16,15 @@ a{
     border-radius: 30px;
     padding: 5px;
 }
+a:hover{
+    color:rgb(109, 109, 209);
+    text-decoration: none;
+}
 
 table{
-    background-color: #fff;
-    padding: 30px;
+    background-color: #ffffff6d;
+    padding: 100px;
+    border-radius: 30px;
 }
 
 h1{
@@ -27,9 +32,9 @@ h1{
     margin-left: 400px;
 }
 form{
-    margin-left: 400px;
-
+    margin-left: 300px;
 }
+
 .btn{
     border: 1px solid rgb(155, 127, 247);
     background-color: rgb(109, 109, 209);
