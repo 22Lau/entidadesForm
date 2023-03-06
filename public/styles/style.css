@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
-body{
+
+
+/* body{
     background-image: url(../images/pinguinos.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top left;
     font-family: 'Tilt Neon';
-    margin: 100px;
-    /* margin-left: 400px; */
-}
+    margin: 30px;
+    padding: 0;
+    height: 100vh;
 
+}
 a{
     text-decoration: none;
     color: black;
@@ -15,10 +19,13 @@ a{
     background-color: blanchedalmond;
     border-radius: 30px;
     padding: 5px;
+    font-size: 40px;
+    
 }
 a:hover{
     color:rgb(109, 109, 209);
     text-decoration: none;
+    
 }
 
 table{
@@ -29,23 +36,39 @@ table{
 
 h1{
     margin-bottom: 80px;
-    margin-left: 400px;
+    margin-left: 30px;
+    font-size: 60px;
 }
 form{
-    margin-left: 300px;
+    max-width: 100%;
+    margin-left: 50px;
+    background-color: #ffffff6d;
+    padding: 0%;
+    font-size: 50px;
+    
+    
+}
+.formContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
 }
 
 .btn{
+    display: inline-block;
     border: 1px solid rgb(155, 127, 247);
     background-color: rgb(109, 109, 209);
     color: #fff;
-    border-radius: 20px;
+    border-radius: 40px;
     margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
 }
 
 
 #cliente_email{
-    margin-left: 38px;
+    margin-left: 100px;
 }
 
 #cliente_nombre{
@@ -54,6 +77,7 @@ form{
 
 #cliente_preferencia{
     margin-left: 40px;
+    padding: 10px;
 }
 
 input {
@@ -68,4 +92,77 @@ select{
 }
 label{
     margin-left:10px;
-}
+} */
+
+    body{
+        background-image: url(../images/pinguinos.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+        border: 1px solid blanchedalmond;
+        background-color: blanchedalmond;
+        border-radius: 30px;
+        padding: 5px;
+    }
+    a:hover{
+        color:rgb(109, 109, 209);
+        text-decoration: none;
+    }
+    
+    table{
+        background-color: #ffffff6d;
+        padding: 100px;
+        border-radius: 30px;
+    }
+    
+    h1{
+        margin-bottom: 80px;
+        margin-left: 400px;
+    }
+    form{
+        max-width: 400px;
+        margin-left: 400px;
+        width: 100%;
+    }
+    
+    .btn{
+        display: inline-block;
+        border: 1px solid rgb(155, 127, 247);
+        background-color: rgb(109, 109, 209);
+        color: #fff;
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+    
+    
+    #cliente_email{
+        margin-left: 38px;
+    }
+    
+    #cliente_nombre{
+        margin-left: 20px;
+    }
+    
+    #cliente_preferencia{
+        margin-left: 40px;
+    }
+    
+    input {
+        margin-bottom: 20px;
+        border-radius: 30px;
+        margin-left: 10px;
+    
+    }
+    
+    select{
+        border-radius: 30px;
+    }
+    label{
+        margin-left:10px;
+    }
+

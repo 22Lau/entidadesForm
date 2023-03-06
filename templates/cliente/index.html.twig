@@ -25,9 +25,10 @@
                 <td>{{ cliente.apellidos }}</td>
                 <td>{{ cliente.email }}</td>
                 <td>{{ cliente.password }}</td>
-                {# <td>{{ actividades.nombre }}</td>
-                <td>{{ actividades.descripcion }}</td> #}
+
+                <td>{{ cliente.preferencia }}</td>
                 
+        
                 <td>
                     <a href="{{ path('app_cliente_show', {'id': cliente.id}) }}">show</a>
                     <a href="{{ path('app_cliente_edit', {'id': cliente.id}) }}">edit</a>
